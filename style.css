@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Playfair+Display:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Itim', cursive;
+font-family: 'Playfair Display', serif;
+}
+
+
+
+body{
+transition: 1s;
+
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+width: 30rem;
+/* height: 15rem; */
+padding: 10px;
+border-radius: 10px;
+font-size: 40px;
+background-color: rgba(255, 255, 255, 0.664);
+text-align: center;
+}
+
+button{
+    margin-top: 5px;
+    background-color: rgb(12, 12, 12);
+    color: white;
+    width: 100%;
+    display: block;
+    font-size: 40px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
